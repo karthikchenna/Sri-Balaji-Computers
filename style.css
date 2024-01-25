@@ -1,0 +1,617 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+/*---------NAVIGATION BAR---------------*/
+.landing{
+    /*background-color: skyblue;*/
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+	/*background-color: pink;*/
+	width: 100%;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	font-size: 20px;
+	padding: 20px  0px;
+	justify-content: space-between;
+	background-color: skyblue;
+	z-index: 100;
+}
+
+.logo a img{
+	/*background-color: red;*/
+	width: 100px;
+	color: white;
+	height: 100px;
+	/*size: cover;*/
+	display: flex;
+	margin-left: 20px;
+}
+
+ul{
+	/*background-color: green;*/
+	width: 40%;
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 0px;
+	/*margin-right: 40px;*/
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px 20px;
+}
+
+nav ul li a{
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: yellow;
+	font-weight: 500;
+	margin-right: 20px;
+}
+
+nav ul li a:hover{
+	/*color: red;*/
+	/*font-size: 18px;*/
+	border-bottom: 2px solid white;
+	transition: all linear 0.1s;
+}
+
+/*--------------SHOP LOGO-----------------*/
+
+.main{
+	color: green;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 30px;
+}
+
+.main img{
+	/*scale: 0.6;*/
+	size: cover;
+	/*margin-top: 40px;*/
+}
+
+
+
+/*------------- SERVICES SECTION-------------------------*/
+
+.services{
+	width: 100%;
+	height: 190vh;
+	/*background-color: red;*/
+	/*display: flex;*/
+}
+
+#test{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	/*background-color: green;*/
+	width: 100%;
+	height: 40px;
+	font-size: 3rem;
+	font-weight: 600;
+	/*margin-top: 10px;*/
+}
+
+.card-continer{
+	display: flex;
+	flex-wrap: wrap;
+	grid-gap: 40px 30px;
+	align-items: center;	
+	justify-content: space-around;
+	margin: 60px 25px;
+	width: 95%;
+	height: 100vh;
+	/*background: yellow;	*/
+}
+
+
+.card{
+	width: 18%;
+	height: 50%;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow:  4px 4px 8px grey, -2px -2px 8px grey;
+	transition: 0.2s;
+}
+
+.card:hover{
+	scale:1.04;
+	transition: 0.2s;
+}
+
+.service-card-pic{
+	margin: 12px 10px;
+	width: 90%;
+	height: 80%;
+	border-radius: 20px;
+	border: 2px solid grey;
+	/*position: relative;*/
+}
+
+.service-card-pic img{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+.card h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+	font-size: 1.2rem;
+}
+
+/*--------------CONTACT SECTION----------*/
+
+.new{
+	width: 100%;
+	height: 70vh;
+	/*margin-top: 220px;*/
+	/*background-color: orange;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.holder{
+	/*background-color: pink;*/
+	/*display: flex;*/
+	/*justify-content: center;*/
+	/*align-items: center;*/
+	margin-left: 100px;
+	width: 70%;
+	height: 90%;
+}
+
+.holder-item{
+	/*background-color: yellow;*/
+	width: 100%;
+	height: 80px;
+	display: flex;
+	/*justify-content: center;*/
+	margin-left: 100px;
+	align-items: center;
+}
+
+.contact-text{
+	color: grey;
+	font-size: 1.3rem;
+}
+
+
+
+
+
+/*----------------FOOTER--------------*/
+.footer{
+	background-color: #171738;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact-container{
+	/*background-color: pink;*/
+	display: flex;
+	width: 40%;
+	/*height: 10px;*/
+	align-items: center;
+	justify-content:center;
+	/*padding: 70px 40px;*/
+}
+
+.contact-section{
+	width: 100%;
+	height: 100vh;
+	/*background-color: brown;*/
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+
+.outer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	margin-left: 50px;
+	background-color: white;
+	border-radius: 50%;
+	box-shadow:  4px 4px 8px grey, -2px -2px 8px grey;
+	transition: linear 0.3s;
+}
+
+.outer:hover{
+	transition: linear 0.3s;
+	/*box-shadow:  4px 4px 8px skyblue, -2px -2px 8px skyblue;*/
+	/*background-color: yellow;*/
+}
+
+a img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	scale:0.4;
+}
+
+
+.footer-second{
+	/*display: flex;*/
+	justify-content: center;
+	align-items: center;
+	/*background-color: green;*/
+}
+
+
+.copyright{
+	color: white;
+	display: inline-block;
+}
+
+
+
+
+/*-----------------responsive--------------------*/
+@media (max-width: 1024px){
+	ul{
+		margin-right: 15px;
+	}
+	.main img{
+		scale: 0.6;
+	}
+	#test{	
+		font-size: 2rem;
+	}	
+	.card{
+		width: 22%;
+		height: 52%;
+		background-color: white;
+	}	
+	.services{
+		height: 270vh;
+	}
+	.new{
+		height: 80vh;
+	}
+	.holder-item{
+		margin-left: 0px;
+	}
+	.holder-item img{
+		scale:0.8;
+	}
+	.holder-item h4{
+		font-size: 1.2rem;
+	}
+}
+
+
+@media (max-width: 768px){
+	ul{
+		margin-right: 20px;
+	}
+	nav ul li{
+		margin: 10px 0px;
+	}
+	#test{	
+		font-size: 2rem;
+	}	
+	.card{
+		width: 28%;
+		height: 52%;
+		background-color: white;
+	}	
+	.services{
+		height: 320vh;
+	}
+	.new{
+		height: 70vh;
+	}
+	.holder-item{
+		height: 70px;
+	}
+	.holder-item img{
+		scale:0.7;
+	}
+	.holder-item h4{
+		font-size: 1rem;
+	}
+	.footer{
+	flex-direction: column;
+	height: 80px;
+	margin-bottom: 0px;
+	}
+	.outer{
+		margin-top: 20px;
+	}
+	.copyright{
+		margin: 5px 0px;
+	}
+}
+
+
+/*-----------------425--*/
+
+@media (max-width: 425px){
+	.landing{
+		height: 70vh;
+	}
+	ul{
+		margin-right: 55px;
+	}
+	nav ul li{
+		margin: 10px 0px;
+	}
+	.main img{
+		scale: 0.4;
+		margin-left: 150px;
+	}
+	#test{	
+		font-size: 2rem;
+	}	
+
+	.card-continer{
+	grid-gap: 40px 10px;
+	margin-left: 15px;
+	/*background: yellow;	*/
+	}
+	.card{
+		width: 30%;
+		height: 46%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}	
+	.services{
+		height: 290vh;
+		width: 130%;
+		margin-left: 5px;
+	}
+
+	.service-card-pic{
+		margin: 12px 5px;
+	}
+
+
+	.new{
+		height: 50vh;
+	}
+	.holder{
+		margin-left: 40px;
+	}
+
+	.holder-item{
+		height: 40px;
+	}
+	.holder-item img{
+		scale:0.5;
+	}
+	.holder-item h4{
+		font-size: 0.9rem;
+	}
+	.footer{
+		flex-direction: column;
+		height: 80px;
+		width: 130%;
+		margin-bottom: 0px;
+	}
+	.outer{
+		margin-top: 20px;
+	}
+	.copyright{	
+		margin: 5px 0px;
+		font-size: 0.8rem;
+	}
+}
+
+
+/*-----------------375--*/
+
+@media (max-width: 375px){
+	.landing{
+		height: 70vh;
+	}
+	ul{
+		display: none;
+	}
+	nav ul li{
+		margin: 10px 0px;
+	}
+	.main img{
+		scale: 0.4;
+		margin-left: 150px;
+	}
+	#test{	
+		font-size: 2rem;
+	}	
+
+	.card-continer{
+		grid-gap: 40px 10px;
+		margin-left: 10px;	
+	}
+	.card{
+		width: 30%;
+		height: 46%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}	
+
+	.service-card-pic{
+		margin: 8px 5px;
+	}
+
+	.new{
+		height: 50vh;
+	}
+	.holder{
+		margin-left: 0px;
+	}
+
+	.holder-item{
+		height: 40px;
+	}
+	.holder-item img{
+		scale:0.4;
+	}
+	.holder-item h4{
+		font-size: 0.8rem;
+	}
+	.footer{
+		flex-direction: column;
+		height: 80px;
+		width: 130%;
+		margin-bottom: 0px;
+	}
+	.outer{
+		width: 30px;
+		height: 30px;
+		margin-top: 20px;
+	}
+	.copyright{
+		margin: 5px 0px;
+		font-size: 0.8rem;
+	}
+}
+
+
+
+
+/*-----------------320--*/
+
+@media (max-width: 320px){
+	nav{
+		/*background-color: red;*/
+	}
+	.landing{
+		height: 70vh;
+	}
+	.main img{
+		scale: 0.3;
+		margin-left: 100px;
+	}
+	#test{	
+		font-size: 1.5rem;
+	}	
+
+	.services{
+		height: 490vh;
+	}
+	.card-continer{
+		margin-top: 20px;
+		grid-gap: 40px 20px;
+		margin-left: 7px;	
+	}
+	.card{
+		width: 47%;
+		height: 52%;
+		display: flex;
+	}	
+
+	.service-card-pic{
+		margin: 8px 6px;
+	}
+
+	.new{
+		height: 50vh;
+	}
+	.holder{
+		margin-left: 0px;
+	}
+
+	.holder-item{
+		height: 40px;
+	}
+	.holder-item img{
+		scale:0.3;
+	}
+	.holder-item h4{
+		font-size: 0.7rem;
+	}
+	.footer{
+		flex-direction: column;
+		height: 80px;
+		width: 130%;
+		margin-bottom: 0px;
+	}
+	.outer{
+		width: 30px;
+		height: 30px;
+		margin-top: 20px;
+	}
+	.copyright{
+		margin: 5px 0px;
+		font-size: 0.8rem;
+	}
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
